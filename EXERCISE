@@ -1,0 +1,44 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class exercise1 {
+    public static void main(String[] args){
+//                                                                     sum of the numbers
+//        int a = 10;
+       // int b = 15;
+       // int c = 20;
+        //int sum = a + b +c ;
+       // System.out.println(sum);
+//                                                                 ENTER THE NAME BETWEEN THE LINE
+//        System.out.println("what is your name");
+//        Scanner sc = new Scanner(System.in);
+//        String name = sc.next();
+//        System.out.println("hello " + name + " have a good day ");
+//                                                                           CONVERT KM TO MILES
+//        System.out.println("enter the km ");
+//        Scanner sc = new Scanner(System.in);
+//        float km =sc.nextInt();
+//        float miles = km * 0.621371f ;
+//        System.out.println(miles);
+//                                                                      IS THE NUMBER INTEGER OR NOT
+        System.out.println("enter the number");
+        Scanner sc = new Scanner(System.in);
+        System.out.println(sc.hasNextInt());
+          
+//                                                                      INCREMENT AND DECREMENT 
+        int i = 2;
+        System.out.println(i);
+        System.out.println(i++);
+        System.out.println(i);
+        System.out.println(++i);
+        System.out.println(--i);
+        System.out.println(i);
+        System.out.println(i--);
+        System.out.println(i);
+
+
+
+
+    }
+}
