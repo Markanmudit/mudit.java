@@ -38,7 +38,17 @@ public class exercise1 {
         System.out.println(i);
 
 
+//                                    WRITE A CODE TO SEE WHETHER THE INPUT NUMBER IS GREATER OR SMALLER
 
+/*        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the number");
+        int a = sc.nextInt();
+        System.out.println(a>6);                   */
+//                                         FIND THE VALUE OF a
+        System.out.println("find the value a ");
+        int x =7;
+        int a =x*49/x + 35/7;
+        System.out.println(a); 
 
     }
 }
