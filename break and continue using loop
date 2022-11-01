@@ -1,0 +1,125 @@
+//                    BREAK STATEMENT 
+
+//                                     BREAK STATEMENT USING FOR LOOP  
+
+  
+package com.company;
+
+public class forloop {
+    public static void main(String[] args) {
+//        int a=10;
+//        for(int i=0; i<=a; i++ ){
+//            System.out.println(i);
+//        }
+//        int a=5;
+//        for(int i=10;i>a; i--){
+//            System.out.println(i);
+//        }
+
+        for(int i=0; i<=6;i++) {
+            System.out.println(i);
+            System.out.println("java is great");
+
+            if (i == 3) {
+                System.out.println("THE LOOP ENDS THERE ");
+                break;
+            }
+        }
+    }
+}
+
+
+
+//                                          BREAK STATEMENT USING WHILE LOOP 
+
+
+
+package com.company;
+
+public class BREAKWITHWHILE {
+    public static void main(String[] args){
+        int i=0;
+        while(i<5){
+            System.out.println(i);
+            System.out.println("java is great");
+            if(i==4){
+                System.out.println("ending the loop  ");
+                break;
+            }
+            i++;
+        }
+        System.out.println("hii the code ends here");
+    }
+}
+
+
+
+
+
+
+
+//                                         CONTINUE STATEMENT 
+
+
+
+package com.company;
+
+public class continueforloop {
+    public static void main(String[] args){
+        for(int i=0;i<=15;i++){
+            if (i==4){
+                System.out.println("the code is running");
+                continue;
+                }
+            System.out.println(i);
+            System.out.println("hii ");
+            }
+
+        }
+    }
+
+
+
+
+//                                                  continue statement USING DO WHILE LOOP
+
+
+
+
+package com.company;
+
+public class continueforloop {
+    public static void main(String[] args){
+//        for(int i=0;i<=15;i++){
+//            if (i==4){
+//                System.out.println("the code is running");
+//                continue;
+//                }
+//            System.out.println(i);
+//            System.out.println("hii ");
+//            }
+        int i=0;
+        do{
+            i++;
+            if(i==3){
+                System.out.println("the loops pause here");
+                continue;
+
+            }
+            System.out.println(i);
+            System.out.println("the code is running ");
+        }while(i<5);
+        System.out.println("loop ends here");
+
+        }
+    }
+
+
+
+
+
+
+
+
+
+
