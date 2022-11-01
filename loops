@@ -1,0 +1,41 @@
+//                    WHILE LOOP 
+
+package com.company;
+
+public class whileloops {
+    public static void main(String[] args) {
+        int a =1;
+        while(a<=5){
+            System.out.println(a);
+            a++;
+        }
+    }
+}
+
+
+//                               DO WHILE LOOP
+
+package com.company;
+
+public class DOWHILELOOP {
+    public static void main(String[] args){
+        int b=0;
+        do{
+            System.out.println(b);
+            b++;
+        }while (b<=5);
+    }
+}
+
+//                        FOR LOOP 
+
+package com.company;
+
+public class forloop {
+    public static void main(String[] args) {
+        int a=10;
+        for(int i=0; i<=a; i++ ){
+            System.out.println(i);
+        }
+    }
+}
