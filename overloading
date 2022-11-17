@@ -1,0 +1,14 @@
+package com.company;
+
+public class overloading {
+    static void foo(){
+        System.out.println("good morning bro!");
+    }
+    static void foo(int a){
+        System.out.println("good morning "+a +"bro");
+        foo();
+        foo(400);
+    }
+}
+
+TWO OR MORE METHODS HAVING SAME SAME  BUT DIFFERENT PARAMETERS ARE CALEED METHOD OVERLOADING 
