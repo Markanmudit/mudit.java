@@ -4,7 +4,7 @@ class mymainemployee{
     private String name;
 
     public mymainemployee(){
-        id =4;
+        id =4;                                                // constrctor is used like this 
         name ="your name ";
 
     }
