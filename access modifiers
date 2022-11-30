@@ -1,0 +1,21 @@
+package com.company;
+
+class myemployee{
+    private String name;
+    public String getName(){
+        return name;
+    }
+    public void setName(String n){
+        name =n;
+
+    }
+
+}
+public class accessmodifiers {
+    public static void main(String[] args){
+        myemployee harry= new myemployee();
+        harry.setName("hii mudit");
+        System.out.println(harry.getName());
+
+    }
+}
