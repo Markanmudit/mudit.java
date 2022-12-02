@@ -39,3 +39,85 @@ public class inheritance {
 
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+class base {
+    base(){
+        System.out.println("i am a constructor ");                                             //constructor 
+    }
+    base(int x){
+        System.out.println("i am a overloaded constructor with value of x as :"+x);
+    }
+//    public int x;
+//
+//    public int getX() {
+//        return x;
+//    }
+//
+//    public void set(int n) {
+//        x = n;
+//    }
+}
+class how extends base{
+    how(){
+ //       super(0);                                                         // SUPER WITH VALUE GIVE THE BASE CONSTRUCTOR A VALUE AS 0
+        System.out.println("i am a derived class constructor  ");
+    }
+    how(int x , int b){
+        super(x);
+        System.out.println("I AM A OVERLOADED CONSTRUCTOR OF DERIVED VALUE OF B AS :"+b );
+    }
+//        public int y;
+////
+////        public int getY() {
+////            return y;
+////        }
+////        public void setY(int z){
+////            y=z;
+////        }
+    }
+    class childofhow{
+    childofhow(){
+        System.out.println("i am a child of derived constructor ");
+    }
+    childofhow(int x , int y , int z){
+//        super(x ,y);
+        System.out.println("i m an overloaded constructor of derived with the value of z as:" + z);
+
+    }
+
+    }
+
+public class inheritance {
+    public static void main (String[] args){
+//        System.out.println("hii how are you");
+//        base mudit = new base();
+        how markan= new how(14 , 9);
+        childofhow me= new childofhow(12 , 13,15);
+
+
+    }
+}
