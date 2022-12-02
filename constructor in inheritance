@@ -1,0 +1,41 @@
+                                           // constructor in inheritance class 
+
+
+class base {
+    base(){
+        System.out.println("i am a constructor ");
+    }
+
+    public int x;
+
+    public int getX() {
+        return x;
+    }
+
+    public void set(int n) {
+        x = n;
+    }
+}
+class how extends base{
+    how(){
+        System.out.println("i am a derived class constructor  ");
+    }
+        public int y;
+
+        public int getY() {
+            return y;
+        }
+        public void setY(int z){
+            y=z;
+        }
+    }
+
+public class inheritance {
+    public static void main (String[] args){
+//        System.out.println("hii how are you");
+        base mudit = new base();
+        how markan= new how();
+
+
+    }
+}
