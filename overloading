@@ -1,10 +1,10 @@
 package com.company;
 
 public class overloading {
-    static void foo(){
-        System.out.println("good morning bro!");
+    static void foo(){                                                                                 //method1 
+        System.out.println("good morning bro!");     
     }
-    static void foo(int a){
+    static void foo(int a){                                                                            //method2 
         System.out.println("good morning "+a +"bro");
         foo();
         foo(400);
@@ -12,3 +12,4 @@ public class overloading {
 }
 
 TWO OR MORE METHODS HAVING SAME SAME  BUT DIFFERENT PARAMETERS ARE CALEED METHOD OVERLOADING 
+in the above there are two methods with similar name but with different parameters . 
