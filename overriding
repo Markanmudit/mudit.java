@@ -1,0 +1,31 @@
+package com.company;
+class a{
+    public int harry(){
+        return 4;
+    }
+    public void meth2(){                                                       //method
+        System.out.println("i am method 2 of class a ");
+    }
+        }
+        class b extends a{                                                         //class
+    public void meth3(){                                                          //method
+        System.out.println("i am method 3 of class b");
+    }
+    public void meth2(){
+        System.out.println("i am method 2 of class b ");
+    }
+
+
+        }
+
+public class overriding {
+    public static void main(String[] args){
+        a mudit = new a();                                                               //object
+        mudit.meth2();
+
+        b ma =new b();
+        ma.meth2();
+
+
+    }
+}
