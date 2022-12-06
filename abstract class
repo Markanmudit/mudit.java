@@ -1,0 +1,30 @@
+package com.company;
+abstract class parent{
+    public parent(){
+        System.out.println("mai base2 ka constructor hoon");
+    }
+    public void sayhello(){                                                         //method
+        System.out.println("hello");
+    }
+    abstract public void greet();
+
+}
+class child  extends parent{
+    public void greet(){
+        System.out.println("good morning");
+    }
+}
+ abstract class child3 extends parent{
+    public void the(){
+        System.out.println("i am good ");
+    }
+}
+
+public class abstractclass {
+    public static void main(String[] args){
+        child c =new child();
+        //parent cn= new parent();                                           //as aprent is a abstract class hence we can not make any object
+       // child3 mm= new child3();                                       // similarly child3 is a abstract class hence no object can be created
+
+    }
+}
